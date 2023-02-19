@@ -1,4 +1,4 @@
-package BidangDatar.BidangDatar1;
+package projects.src.Model;
 
 public class Persegi {
     private int sisi, LuasPersegi, KelilingPersegi;

@@ -1,4 +1,9 @@
-package BidangDatar.BidangDatar1;
+package projects.src.proyek;
+
+import projects.src.Model.BelahKetupat;
+import projects.src.Model.Lingkaran;
+import projects.src.Model.Persegi;
+import projects.src.Model.Segitiga;
 
 import java.util.Arrays;
 

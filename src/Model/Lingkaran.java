@@ -1,4 +1,4 @@
-package BidangDatar.BidangDatar1;
+package projects.src.Model;
 
 public class Lingkaran {
     private double jarijari, LuasLingkaran, KelilingLingkaran;

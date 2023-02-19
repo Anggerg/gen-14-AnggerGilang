@@ -1,4 +1,4 @@
-package BidangDatar.BidangDatar1;
+package projects.src.Model;
 //Menghitung luas dan keliling segitiga siku-siku
 public class Segitiga {
     private double alas, tinggi;

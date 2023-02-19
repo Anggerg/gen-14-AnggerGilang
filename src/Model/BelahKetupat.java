@@ -1,4 +1,4 @@
-package BidangDatar.BidangDatar1;
+package projects.src.Model;
 
 public class BelahKetupat {
     private double diagonal1, diagonal2, LuasBelahKetupat, KelilingBelahKetupat;
