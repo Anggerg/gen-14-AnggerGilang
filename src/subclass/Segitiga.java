@@ -45,6 +45,6 @@ public class Segitiga extends Bidangdatar {
     @Override
     public String keliling() {
         keliling = alas + tinggi + Math.sqrt((alas*alas)+(tinggi*tinggi));
-        return "Luas Segitiga = " +keliling+" cm";
+        return "Keliling Segitiga = " +keliling+" cm";
     }
 }

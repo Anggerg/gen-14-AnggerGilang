@@ -11,25 +11,28 @@ public class menghitungluasdankeliling {
 
         System.out.println("\n");
 
-        Segitiga segitiga = new Segitiga(10,24);
+        Segitiga segitiga = new Segitiga(9,12);
         Lingkaran lingkaran = new Lingkaran(14);
         Persegi persegi = new Persegi(12);
         BelahKetupat belahKetupat = new BelahKetupat(18,24);
 
-        //menghitung luas
+        //menampilkan luas
         Bidangdatar[] luasBidangDatar = {segitiga,lingkaran,persegi,belahKetupat};
 
-        for (Bidangdatar i : luasBidangDatar) {
-            System.out.println(i.luas());
+        Bidangdatar bidangdatar;
+        for (int i = 0; i < luasBidangDatar.length; i++) {
+            bidangdatar = luasBidangDatar[i];
+            System.out.println(bidangdatar.luas());
         }
 
         System.out.println("\n");
 
-        //menghitung keliling
+        //menampilkan keliling
         Bidangdatar[] kelilingBidangDatar = {segitiga,lingkaran,persegi,belahKetupat};
 
-        for (Bidangdatar i : kelilingBidangDatar) {
-            System.out.println(i.keliling());
+        for (int i = 0; i < kelilingBidangDatar.length; i++) {
+            bidangdatar = kelilingBidangDatar[i];
+            System.out.println(bidangdatar.keliling());
         }
     }
 }
