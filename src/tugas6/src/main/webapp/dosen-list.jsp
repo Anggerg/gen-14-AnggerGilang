@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored = "false" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,6 +40,7 @@
     background-color: #f2f2f2;
 }
 </style>
+
 </head>
 <body>
 	<header>
@@ -81,8 +84,10 @@
 							<td><c:out value="${dosen.id}" /></td>
 							<td><c:out value="${dosen.nama}" /></td>
 							<td><a href="edit?id=<c:out value='${dosen.id}' />">Edit</a>
-								&nbsp;&nbsp;&nbsp;&nbsp; <a
-								href="delete?id=<c:out value='${dosen.id}' />">Delete</a></td>
+								&nbsp;&nbsp;&nbsp;&nbsp; 
+								<a href="delete?id=<c:out value='${dosen.id}' />"
+								onclick="return confirm('Are you sure you want to delete this data?')">
+								Delete</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>
